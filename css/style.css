@@ -1,12 +1,42 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;
-
-500;700&family=PT+Serif:wght@700&display=swap);
 @charset "UTF-8";
+
 @font-face {
   font-family: icons;
   font-display: swap;
   src: url("../fonts/icons.woff2") format("woff2"), url("../fonts/icons.woff") format("woff");
   font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: PT Serif;
+  font-display: swap;
+  src: url("../fonts/PT Serif.woff2") format("woff2"), url("../fonts/PT Serif.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -52,7 +82,7 @@ body {
 body {
   color: #fff;
   line-height: 1;
-  font-family: "Montserrat";
+  font-family: "Roboto";
   font-size: 1rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -64,7 +94,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "Montserrat";
+  font-family: "Roboto";
   font-size: inherit;
 }
 
